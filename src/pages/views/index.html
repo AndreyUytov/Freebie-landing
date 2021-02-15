@@ -9,6 +9,11 @@
   <body>
     <%= _.template(require('./../includes/svg-sprite.html'))() %>
 
-    <p>привет мир</p>
+    <main>
+      <%= _.template(require('./../includes/full-screen.html'))() %> <%=
+      _.template(require('./../includes/we-are.html'))() %> <%=
+      _.template(require('./../includes/services.html'))() %> <%=
+      _.template(require('./../includes/works.html'))() %>
+    </main>
   </body>
 </html>
